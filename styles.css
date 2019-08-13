@@ -1,0 +1,35 @@
+.container {
+    height: 95vh;
+    background: pink;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item {
+    height: 50%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3%;
+    /* background: lightblue; */
+    height: 30vh;
+}
+
+.item:hover {
+    color: green;
+}
+
+.item2 {
+    background: white;
+}
